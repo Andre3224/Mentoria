@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-msg = 'Olá, isto é um teste em FastAPI'
+msg = 'OK -- o status code é 200'
 
 @app.get("/")
 async def root():
